@@ -12,7 +12,7 @@ public class Velocimetro : MonoBehaviour
     [SerializeField] public float anguloVelocidadMaxima;
 
     [Header("UI")]
-    public TextMeshProUGUI panelVelocidad; // El Texto que muestra la velocidad
+    public TextMeshProUGUI panelVelocidad; // El Texto que muestra la velocidad al ser TextMeshPro se pone lo indicado en verde para poder meterlo
     public RectTransform aguja; // esto es para el giro de la aguja del velocimetro
 
     private float speed = 0.0f;
