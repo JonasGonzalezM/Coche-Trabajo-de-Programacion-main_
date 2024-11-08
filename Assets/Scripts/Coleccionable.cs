@@ -8,6 +8,7 @@ public class Coleccionable : MonoBehaviour
     [SerializeField] private float velocidad = 3f;
     [SerializeField] Vector3 direccionMovimiento= new Vector3(0,1,0);
     [SerializeField] Vector3 rotacionColeccion = new Vector3(0,1,0);
+    private int puntos;
 
     // Start is called before the first frame update
     void Start()
@@ -36,8 +37,16 @@ public class Coleccionable : MonoBehaviour
 
 
     }
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.CompareTag("Player"))
+        {
+            Destroy(gameObject);
+            puntos++;
+        }
+    }
 
 
 
-    
+
 }
