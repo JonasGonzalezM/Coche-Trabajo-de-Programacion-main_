@@ -30,7 +30,7 @@ public class ControlM3 : MonoBehaviour
 
     // Variables para el derrape
     private bool esDerrape = false;  // Determina si el coche está derrapando.
-    private float factorDeDerrape = 0.2f;  // Factor de reducción de la fricción lateral durante el derrape.
+    private float factorDeDerrape = 0.1f;  // Factor de reducción de la fricción lateral durante el derrape.
 
     void Start()
     {
