@@ -5,7 +5,7 @@ using UnityEngine;
 public class Coleccionable : MonoBehaviour
 {
     [SerializeField] private float timer;
-    [SerializeField] private float velocidad = 3f;
+    [SerializeField] private float velocidad = 2f;
     [SerializeField] Vector3 direccionMovimiento= new Vector3(0,1,0);
     [SerializeField] Vector3 rotacionColeccion = new Vector3(0,1,0);
     private int puntos;

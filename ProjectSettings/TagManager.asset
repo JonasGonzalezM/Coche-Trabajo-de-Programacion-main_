@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - Coleccionable
+  - Final
+  - Checkpoint
+  - Nitro
   layers:
   - Default
   - TransparentFX
