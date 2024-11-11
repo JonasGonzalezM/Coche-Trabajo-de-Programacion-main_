@@ -1,6 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
-using TMPro;  // Importamos el espacio de nombres para la UI de texto (si usas TextMesh Pro).
+using TMPro;  // Importamos el espacio de nombres para la UI de texto (si uso TextMesh Pro).
 using UnityEngine;  // Espacio de nombres principal para interactuar con Unity.
 using UnityEngine.SceneManagement;  // Para poder cargar otras escenas (como la de puntuaciones).
 
